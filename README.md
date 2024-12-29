@@ -4,12 +4,14 @@ A simple script that just takes your Slack API, downloads all information for al
 
 ## Installation
 
-Script is workable with Python 2.7
+Script is workable with Python 3
 
-1. Install Python 2.7
-2. Install  packages which are described in `requitements.txt`:
+1. Install Python 3
+2. Install packages which are described in `requirements.txt`:
 ```bash
-pip install -U -r requitements.txt
+virtualenv -p3 .venv
+. .venv/bin/activate
+pip install -U -r requirements.txt
 ```
 
 ## Usage
